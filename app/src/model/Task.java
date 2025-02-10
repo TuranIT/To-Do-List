@@ -1,15 +1,15 @@
-
+package model;
 
 import java.time.LocalDateTime;
 
-public class Entity {
+public class Task {
     private int id;
     private String title;
     private String description;
     private LocalDateTime dueDate;
     private boolean completed;
 
-    public Entity(int id, String title, String description, LocalDateTime dueDate, boolean completed) {
+    public Task(int id, String title, String description, LocalDateTime dueDate, boolean completed) {
         this.id = id;
         this.title = title;
         this.description = description;
